@@ -1,0 +1,6 @@
+[Wed Apr 06 10:15:54.450586 2016] [:error] [pid 5055] [client 127.0.0.1:45643] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /media/honganh/Dev/htdocs/api-example/app/Http/routes.php on line 22
+[Wed Apr 06 10:17:31.990205 2016] [:error] [pid 5056] [client 127.0.0.1:45651] PHP Parse error:  syntax error, unexpected '{' in /media/honganh/Dev/htdocs/api-example/app/Http/Controllers/TagController.php on line 115
+[Wed Apr 06 10:19:18.537836 2016] [:error] [pid 5058] [client 127.0.0.1:45655] PHP Fatal error:  Class 'Input' not found in /media/honganh/Dev/htdocs/api-example/app/Http/Controllers/TagController.php on line 35
+[Wed Apr 06 10:19:53.919138 2016] [:error] [pid 5059] [client 127.0.0.1:45659] PHP Fatal error:  Class 'Input' not found in /media/honganh/Dev/htdocs/api-example/app/Http/Controllers/TagController.php on line 35
+[Wed Apr 06 11:38:46.944609 2016] [:error] [pid 5059] [client 127.0.0.1:46181] PHP Parse error:  syntax error, unexpected ':' in /media/honganh/Dev/htdocs/api-example/app/Http/Controllers/PostController.php on line 143
+[Wed Apr 06 11:39:06.211592 2016] [:error] [pid 5055] [client 127.0.0.1:46184] PHP Fatal error:  Class 'App\\Http\\Controllers\\Tag' not found in /media/honganh/Dev/htdocs/api-example/app/Http/Controllers/PostController.php on line 143
