@@ -49,7 +49,7 @@ class PostController extends Controller
 		$post->save();
 
 		$response->post = $post;
-		return Response::json( $response );
+		return Response::json(array ('created'=>true));
 	}
 	/**
 	 * Update the specified resource in storage.
@@ -77,7 +77,7 @@ class PostController extends Controller
 	 		$response->error = 0;
 	 		$response->status = 'success';
 		}
-		return Response::json( $response );
+		return Response::json( array ('updated'=>true) );
 	}
 
 	/**
